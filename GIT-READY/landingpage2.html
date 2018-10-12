@@ -9,10 +9,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <style>container {background: url(http://www.severe-weather.eu/wp-content/gallery/weather-photos/18092016_lightning_10-1.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;}
-    </style>
+    <style>
+        #example1 {
+            border: 2px solid black;
+            padding: 25px;
+            background: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        </style>
+   
 </head>
 
 <body>
@@ -28,11 +34,13 @@
 </script>
 <!--end of Navigation bar-->
     
-    <div id="container">
+        <div class="container"> 
+         <div id="example1">
         <h3>Bootstrap Project</h3>
         <p>The aim of this project was to pull climate data from XXXX, manipulate it in Pandas and use Matplotlib to plot and
         seach for patterns.</p>
         </p>
+        </div>
     </div>
 
 </body>
